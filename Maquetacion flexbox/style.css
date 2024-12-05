@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:hotpink;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer{
+    background-color: hotpink;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    padding: 10px;
+}
+
+footer div a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
