@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color:#0768A9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#titulo p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#comidas{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+#comidas article{
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid lightcyan;
+    max-width: 350px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#comidas img{
+    max-width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: #FFCC00;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+p{
+    padding: 10px;
+}
+
+footer div a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
